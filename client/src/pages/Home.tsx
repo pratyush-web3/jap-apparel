@@ -102,7 +102,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-20 lg:-translate-y-10">
             {/* Left: Premium Headline */}
             <div className="max-w-xl">
               <div className="mb-6 inline-block">
@@ -144,28 +144,37 @@ export default function Home() {
 
             {/* Right: Stats Card */}
             <div ref={statsRef} className="hidden lg:block">
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-10 border border-white/20 shadow-2xl">
+              <div className="bg-white/3 backdrop-blur-sm rounded-3xl p-10 border border-white/5 shadow-xl">
                 <div className="space-y-8">
-                  <div className="border-b border-white/20 pb-8">
-                    <p className="text-white/80 text-sm font-medium mb-2">製造能力</p>
+                  <div className="border-b border-white/5 pb-8">
+                    <p className="text-white/70 text-sm font-medium mb-2">製造能力</p>
                     <p className="text-4xl font-bold text-white">5000万枚/年</p>
-                    <p className="text-white/70 text-sm mt-2">高品質なアパレル製造</p>
+                    <p className="text-white/50 text-sm mt-2">高品質なアパレル製造</p>
                   </div>
 
-                  <div className="border-b border-white/20 pb-8">
-                    <p className="text-white/80 text-sm font-medium mb-2">サステナブル素材</p>
+                  <div className="border-b border-white/5 pb-8">
+                    <p className="text-white/70 text-sm font-medium mb-2">
+                      サステナブル素材
+                    </p>
                     <p className="text-4xl font-bold text-white">6種類以上</p>
-                    <p className="text-white/70 text-sm mt-2">環境配慮型素材開発</p>
+                    <p className="text-white/50 text-sm mt-2">
+                      環境配慮型素材開発
+                    </p>
                   </div>
 
                   <div>
-                    <p className="text-white/80 text-sm font-medium mb-2">グローバル拠点</p>
+                    <p className="text-white/70 text-sm font-medium mb-2">
+                      グローバル拠点
+                    </p>
                     <p className="text-4xl font-bold text-white">45カ国以上</p>
-                    <p className="text-white/70 text-sm mt-2">世界中のクライアント</p>
+                    <p className="text-white/50 text-sm mt-2">
+                      世界中のクライアント
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
