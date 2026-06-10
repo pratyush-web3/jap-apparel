@@ -169,13 +169,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div
-          ref={scrollIndicatorRef}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10"
-        >
-          <ChevronDown className="w-8 h-8 text-white/60 animate-bounce" />
-        </div>
       </section>
 
       {/* Company Overview */}
