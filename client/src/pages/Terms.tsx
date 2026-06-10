@@ -39,7 +39,7 @@ export default function Terms() {
                 <div className="flex-1">
                   <h2 className="text-2xl font-bold text-foreground mb-4">規約の適用範囲</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    本利用規約は、当社が運営するウェブサイト（https://japanapparel-4g994veu.manus.space）及び当社が提供するすべてのサービスに適用されます。本ウェブサイトをご利用になられた場合、本規約に同意いただいたものと判断させていただきます。
+                    本利用規約は、当社が運営するウェブサイト及び当社が提供するすべてのサービスに適用されます。本ウェブサイトをご利用になられた場合、本規約に同意いただいたものと判断させていただきます。
                   </p>
                 </div>
               </div>

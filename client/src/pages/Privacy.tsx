@@ -39,7 +39,7 @@ export default function Privacy() {
                 <div className="flex-1">
                   <h2 className="text-2xl font-bold text-foreground mb-4">適用範囲</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    本プライバシーポリシーは、当社が運営するウェブサイト（https://japanapparel-4g994veu.manus.space）及び当社が提供するすべてのサービスに適用されます。第三者が運営するウェブサイトについては、本ポリシーの適用外です。
+                    本プライバシーポリシーは、当社が運営するウェブサイト及び当社が提供するすべてのサービスに適用されます。第三者が運営するウェブサイトについては、本ポリシーの適用外です。
                   </p>
                 </div>
               </div>
